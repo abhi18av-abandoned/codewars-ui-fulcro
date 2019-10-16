@@ -1,7 +1,7 @@
 (ns ^{:author "Abhinav Sharma (@abhi18av)"
       :doc    "Wraps the api for https://dev.codewars.com/"}
 
-  app.external-api.codewars
+  app.external-api.scratch
 
   (:require [app.secrets :as secrets]
             [app.utils :as utils :refer [namespaced-keys pull-namespaced pull-key update-if]]
