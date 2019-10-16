@@ -55,7 +55,7 @@
   {::pc/input  #{:codewars.user/username}
    ::pc/output user-shape}
   (let [cors-proxy "https://cors-anywhere.herokuapp.com/"
-        api-url "https://www.codewars.com/api/v1"]
+        api-url "https://www.codewars.com/api/v1/users/"]
     (go-catch
       (->> (p.http/request env (str cors-proxy api-url username)
                            {::p.http/accept  ::p.http/json
@@ -98,6 +98,6 @@
 
   (pathom-api {} [{[:username "abhi18av"]
 
-                   [:codewars.user.ranks/languages]}])
+                   [:codewars.user/name]}])
 
   '())
