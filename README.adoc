@@ -1,0 +1,10 @@
+== Fulcro template for purely FrontEnd Apps
+
+This template provides a good starting point for a FrontEnd application, perhaps a Graphical Interface wrapping a known API :)
+
+- The template is used extensively for a lot of applications I'm working on.
+- It's kept up to date wrt the dependencies.
+- Meant to be a minimal boilerplate so you need to add ClojureScript/NPM libraries by yourself.
+
+MIT @ abhi18av
+
